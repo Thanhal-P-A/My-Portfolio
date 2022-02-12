@@ -3,7 +3,7 @@
 // Website related settings
 const settings = {
   isSplash: true, // Change this to true if you want to use the splash screen.
-  useCustomCursor: true, // Change this to false if you want the good'ol cursor
+  useCustomCursor: false, // Change this to false if you want the good'ol cursor
   googleTrackingID: "UA-174238252-2",
 };
 
@@ -78,6 +78,20 @@ const skills = {
           style: {
             backgroundColor: "#007acc",
             color: "#FFFFFF",
+          },
+        },
+        {
+          skillName: "Redux",
+          fontAwesomeClassname: "simple-icons:redux",
+          style: {
+            color: "#764abc",
+          },
+        },
+        {
+          skillName: "Redux Saga",
+          fontAwesomeClassname: "simple-icons:reduxsaga",
+          style: {
+            color: "#8AD96C",
           },
         },
         {
@@ -298,7 +312,7 @@ const experience = {
 const projectsHeader = {
   title: "Projects",
   description:
-    "My projects make use of a vast variety of latest technology tools. My best experience is to create and develop Mobile Applications for both Android and IOS. Below are some of my projects.",
+    "My projects make use of a vast variety of latest technology tools. My best experience is to create and develop Mobile Applications for both Android and iOS. Below are some of my projects.",
   avatar_image_path: "projects_image.svg",
 };
 
@@ -323,52 +337,164 @@ const projects = {
   data: [
     {
       id: "0",
-      name: "Comet",
-      url: "https://www.google.com/",
+      name: "X-fly (Health care management system)",
+      url: "https://www.systemanalytic.com/X-fly-Insights.html",
       description:
-        "This is a social media application for doctors.It provides live chatting and feed sharing and other features.",
+        "It is an expert information system for health care to assist experts specialized in different health care platforms. The system is helpful for sharing quantitative research component.",
       languages: [
         {
-          name: "ReactJS",
+          name: "React Native",
           iconifyClass: "logos-react",
         },
         {
           name: "JavaScript",
           iconifyClass: "logos-javascript",
+        },
+        {
+          name: "Redux",
+          iconifyClass: "logos-redux",
+        },
+        {
+          name: "Firebase",
+          iconifyClass: "logos-firebase",
+        },
+        {
+          name: "SQLite",
+          iconifyClass: "logos-sqlite",
         },
       ],
     },
     {
       id: "1",
-      name: "Tracking App",
-      url: "https://www.google.com/",
+      name:
+        "Pol - App (Official app of Kerala Police for public safety and service)",
+      url: "https://keralapolice.gov.in/page/mobile-apps",
       description:
-        "A mobile application for tracking live vehicles and access to real time commands and location features.",
+        "Integrated mobile app for public safety and services. Public can avail 30+ services from this app. SOS. Live Tracking, FIR download and report abandoned child are important services among them.",
       languages: [
         {
-          name: "ReactJS",
+          name: "React Native",
           iconifyClass: "logos-react",
         },
         {
           name: "JavaScript",
           iconifyClass: "logos-javascript",
+        },
+        {
+          name: "Firebase",
+          iconifyClass: "logos-firebase",
+        },
+        {
+          name: "Redux",
+          iconifyClass: "logos-redux",
+        },
+        {
+          name: "Redux Saga",
+          iconifyClass: "logos-redux-saga",
         },
       ],
     },
     {
       id: "2",
-      name: "X-fly Insights Management",
-      url: "https://www.google.com/",
+      name: "Skyline Tracking Tool",
+      url: "https://apps.apple.com/sa/app/skyline-tracking-tool/id1568292427",
       description:
-        "It is an all-purpose application for medical and health services.",
+        "A mobile application Supporting real time vehicle tracking, Generate and schedule reports and access to real time commands & location features.",
       languages: [
         {
-          name: "ReactJS",
+          name: "React Native",
           iconifyClass: "logos-react",
         },
         {
           name: "JavaScript",
           iconifyClass: "logos-javascript",
+        },
+        {
+          name: "Redux",
+          iconifyClass: "logos-redux",
+        },
+      ],
+    },
+    {
+      id: "3",
+      name: "Easyish (OCR - Scan)",
+      url: "https://play.google.com/store/apps/details?id=easyish.zerone",
+      description:
+        "On-device Text Recognition using Firebase ML Kit SDK and Listing of installed apps (in android only) to direct access from app.",
+      languages: [
+        {
+          name: "React Native",
+          iconifyClass: "logos-react",
+        },
+        {
+          name: "Firebase ML Kit",
+          iconifyClass: "logos-firebase",
+        },
+        {
+          name: "Redux",
+          iconifyClass: "logos-redux",
+        },
+        {
+          name: "TypeScript",
+          iconifyClass: "logos-typescript",
+        },
+      ],
+    },
+    {
+      id: "4",
+      name: "Dr Perfect (Dr appointment for home consultation)",
+      url: "",
+      description:
+        "It consists 2 apps with one is for doctors and other for patients. Patients can see nearby doctors and book appointment for home consultation. Doctor have choice to accept appointment and start trip and it navigates to patient’s location.",
+      languages: [
+        {
+          name: "React Native",
+          iconifyClass: "logos-react",
+        },
+        {
+          name: "Firebase",
+          iconifyClass: "logos-firebase",
+        },
+        {
+          name: "JavaScript",
+          iconifyClass: "logos-javascript",
+        },
+        {
+          name: "Redux",
+          iconifyClass: "logos-redux",
+        },
+        {
+          name: "Redux Saga",
+          iconifyClass: "logos-redux-saga",
+        },
+        {
+          name: "Node.JS",
+          iconifyClass: "logos-nodejs",
+        },
+      ],
+    },
+    {
+      id: "5",
+      name: "Moise Safra (Event booking app)",
+      url: "https://apps.apple.com/mx/app/moise-safra-center/id1450382691?l=en",
+      description:
+        "An event listing and booking app for Moise Safra Center members. Members will have real-time access to events, registrations and account information.",
+      languages: [
+        {
+          name: "React Native",
+          iconifyClass: "logos-react",
+        },
+        {
+          name: "JavaScript",
+          iconifyClass: "logos-javascript",
+        },
+        {
+          name: "Redux",
+          iconifyClass: "logos-redux",
+        },
+        {
+          name: "Redux Saga",
+          iconifyClass: "logos-redux-saga",
         },
       ],
     },
