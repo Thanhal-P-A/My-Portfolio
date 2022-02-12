@@ -29,7 +29,8 @@ function Education(props) {
                 className="experience-header-detail-text subTitle"
                 style={{ color: theme.secondaryText }}
               >
-                I actively participate in 
+                I actively participate in various programs inside and outside of
+                our field
               </p>
             </div>
           </div>

@@ -12,11 +12,11 @@ const greeting = {
   title: "Hello 👋.",
   title2: "Thanhal",
   logo_name: "thanhal.pa()",
-  // nickname: "",
   full_name: "Thanhal P A",
-  subTitle: "Mobile App Developer, React Native Enthusiast, Life Long Learner.",
-  resumeLink: "https://drive.google.com/",
-  mail: "mailto:thanhalpa@gmail.com",
+  subTitle:
+    "Senior Software Engineer, Hybrid Mobile App Developer, React Native Enthusiast.",
+  resumeLink:
+    "https://drive.google.com/file/d/1JsvmKxlTRqwSa8TObzRerbvZoAJEaC8S/view?usp=sharing",
 };
 
 const socialMediaLinks = {
@@ -24,9 +24,8 @@ const socialMediaLinks = {
   github: "https://github.com/thanhal-p-a",
   linkedin: "https://www.linkedin.com/in/thanhal-p-a-3749ab143/",
   gmail: "thanhalpa@gmail.com",
-  gitlab: "https://gitlab.com/",
   instagram: "https://www.instagram.com/thanhal_rafi/",
-  whatsapp: "https://wa.me/919656464080?text="
+  whatsapp: "https://wa.me/919656464080?text=",
 };
 
 const contactInfo = {
@@ -41,7 +40,7 @@ const skills = {
       skills: [
         "⚡ Develop highly interactive User Interfaces for Mobile Applications",
         "⚡ Building and uploading applications for both IOS and Android.",
-        "⚡ Integration of third party services such as Firebase",
+        "⚡ Integration of third party services such as Firebase, AES Encryption, SQLite, Rich Text Editor, TTS, Text Recognition, Google Map APIs, Social Media Feeds etc..",
       ],
       softwareSkills: [
         {
@@ -135,7 +134,7 @@ const degrees = {
       logo_path: "CusatLogo.png",
       alt_name: "CUSAT",
       duration: "2014 - 2018",
-      descriptions: ["⚡ I have completed my B.Tech in C.S.E with 7.1 CGPA."],
+      descriptions: ["⚡ I have completed my B.Tech in C.S.E with 7.01 CGPA."],
       website_link: "https://www.cusat.ac.in/",
     },
   ],
@@ -144,22 +143,59 @@ const degrees = {
 const certifications = {
   certifications: [
     {
-      title: "Training",
-      subtitle: "React Native Learning",
+      title: "React Native Internship",
+      subtitle: "Lookings Soft",
       logo_path: "LookingsLogo.png",
-      certificate_link: "https://lookingsoft.com/",
-      alt_name: "Reply",
+      certificate_link:
+        "https://drive.google.com/file/d/1JVIaGWEiXzi1DEvp5kNPD1aOFmZboCYP/view?usp=sharing",
+      alt_name: "Lookings",
+      color_code: "#C5E2EE",
+    },
+    {
+      title: "B.Tech Certificate",
+      subtitle: "CUSAT",
+      logo_path: "CusatLogo.png",
+      certificate_link:
+        "https://drive.google.com/file/d/1J-K46DMhkzkYlrW7dE55fc1uY_fAkiwo/view?usp=sharing",
+      alt_name: "BTech",
       color_code: "#7A7A7A",
     },
-    // color_code: "#8C151599",
-    // color_code: "#7A7A7A",
-    // color_code: "#0C9D5899",
-    // color_code: "#C5E2EE",
-    // color_code: "#ffc475",
-    // color_code: "#g",
-    // color_code: "#ffbfae",
-    // color_code: "#fffbf3",
-    // color_code: "#b190b0",
+    {
+      title: "Amcat Report Card",
+      subtitle: "Aspiring Minds",
+      logo_path: "AmcatLogo.png",
+      certificate_link:
+        "https://drive.google.com/file/d/1c32FZbcIxVJxq22BXcoFrr6Jlh5GbHY8/view?usp=sharing",
+      alt_name: "Amcat",
+      color_code: "#C5E2EE",
+    },
+    {
+      title: "B.Tech Consolidation",
+      subtitle: "CUSAT",
+      logo_path: "CusatLogo.png",
+      certificate_link:
+        "https://drive.google.com/file/d/1JTVK1RhrI7I5cITcG_fdD8arq2YbJHIO/view?usp=sharing",
+      alt_name: "BTech Consolidation",
+      color_code: "#0C9D58",
+    },
+    {
+      title: "Gate Score Card",
+      subtitle: "Gate 2018",
+      logo_path: "GateLogo.png",
+      certificate_link:
+        "https://drive.google.com/file/d/1JpCIxJJcf4udDzD1DoXckpUHi7_JCoUk/view?usp=sharing",
+      alt_name: "Gate",
+      color_code: "#fffbf3",
+    },
+    {
+      title: "HSE Certificate (12th)",
+      subtitle: "Govt of Kerala",
+      logo_path: "KeralaLogo.png",
+      certificate_link:
+        "https://drive.google.com/file/d/1JW9Sg4Z3iswAd8t0ugMxhjuzLBvKCQ8Y/view?usp=sharing",
+      alt_name: "HSE",
+      color_code: "#bfbb42",
+    },
   ],
 };
 
@@ -175,13 +211,38 @@ const experience = {
       title: "Work Experience",
       experiences: [
         {
-          title: "React Native Developer",
-          company: "Zerone Consulting Pvt Ltd",
+          title: "Senior Software Engineer (React Native)",
+          company: "Zerone Consulting",
           company_url: "https://www.zerone-consulting.com/",
           logo_path: "ZeroneLogo.png",
-          duration: "August 2020 - present",
+          duration: "Aug 2020 - present",
           location: "Cochin,kerala,India",
-          description: "Senior Software Engineer (React Native)",
+          description: `Role: Propose & Implement technical solutions for complex problems;
+          Plan source code structure & reviewing source codes;
+          Internal evaluation of associates;
+          Mentoring junior resources.`,
+          color: "#0071C5",
+        },
+        {
+          title: "Mobile Developer (React Native)",
+          company:
+            "Tata Consultancy Services (Onward technologies - CCTNS Kerala Police)",
+          company_url: "https://www.tcs.com/",
+          logo_path: "TcsLogo.png",
+          duration: "Oct 2019 - Aug 2020",
+          location: "Trivandrum,kerala,India",
+          description:
+            "Role: Team leadership; Analyse, Estimate, Design, Implement & Test Modules.",
+          color: "#4285F4",
+        },
+        {
+          title: "Junior Software Engineer (React Native)",
+          company: "iLeaf Sultions",
+          company_url: "https://www.ileafsolutions.com/",
+          logo_path: "IleafLogo.png",
+          duration: "Sep 2018 - jun 2019",
+          location: "Cochin,kerala,India",
+          description: `Role: Design, Implement and Integrate components.`,
           color: "#0071C5",
         },
       ],
@@ -196,7 +257,7 @@ const experience = {
           logo_path: "LookingsLogo.png",
           duration: "Jul 2018 - Sep 2018",
           location: "Cochin,kerala,India",
-          description: "React Native Trainee",
+          description: "Training, research and understand the technology",
           color: "#4285F4",
         },
       ],
