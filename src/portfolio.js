@@ -35,11 +35,11 @@ const contactInfo = {
 const skills = {
   data: [
     {
-      title: "Mobile App Development",
+      title: "Skills and Tools",
       fileName: "FullStackImg",
       skills: [
-        "⚡ Develop highly interactive User Interfaces for Mobile Applications",
-        "⚡ Building and uploading applications for both IOS and Android.",
+        "⚡ Development of highly interactive UI for Mobile Applications",
+        "⚡ Deployment of both iOS and Android builds.",
         "⚡ Integration of third party services such as Firebase, AES Encryption, SQLite, Rich Text Editor, TTS, Text Recognition, Google Map APIs, Social Media Feeds etc..",
       ],
       softwareSkills: [
@@ -51,32 +51,10 @@ const skills = {
           },
         },
         {
-          skillName: "JavaScript",
-          fontAwesomeClassname: "simple-icons:javascript",
+          skillName: "iOS",
+          fontAwesomeClassname: "simple-icons:ios",
           style: {
-            backgroundColor: "#FFFFFF",
-            color: "#F7DF1E",
-          },
-        },
-        {
-          skillName: "CSS3",
-          fontAwesomeClassname: "fa-css3",
-          style: {
-            color: "#1572B6",
-          },
-        },
-        {
-          skillName: "NodeJS",
-          fontAwesomeClassname: "simple-icons:node-dot-js",
-          style: {
-            color: "#339933",
-          },
-        },
-        {
-          skillName: "NPM",
-          fontAwesomeClassname: "simple-icons:npm",
-          style: {
-            color: "#CB3837",
+            color: "#A2AAAD",
           },
         },
         {
@@ -87,10 +65,47 @@ const skills = {
           },
         },
         {
+          skillName: "JavaScript",
+          fontAwesomeClassname: "simple-icons:javascript",
+          style: {
+            backgroundColor: "#000000",
+            color: "#F7DF1E",
+          },
+        },
+        {
+          skillName: "TypeScript",
+          fontAwesomeClassname: "simple-icons:typescript",
+          style: {
+            backgroundColor: "#007acc",
+            color: "#FFFFFF",
+          },
+        },
+        {
+          skillName: "Mac",
+          fontAwesomeClassname: "simple-icons:apple",
+          style: {
+            color: "#A2AAAD",
+          },
+        },
+        {
+          skillName: "Windows",
+          fontAwesomeClassname: "simple-icons:windows",
+          style: {
+            color: "#00A4EF",
+          },
+        },
+        {
           skillName: "Linux",
           fontAwesomeClassname: "simple-icons:linux",
           style: {
             color: "#000000",
+          },
+        },
+        {
+          skillName: "VSCode",
+          fontAwesomeClassname: "simple-icons:visualstudio",
+          style: {
+            color: "#007acc",
           },
         },
         {
@@ -101,24 +116,38 @@ const skills = {
           },
         },
         {
-          skillName: "C",
-          fontAwesomeClassname: "simple-icons:c",
+          skillName: "NPM",
+          fontAwesomeClassname: "simple-icons:npm",
           style: {
-            color: "#E94E32",
+            color: "#CB3837",
           },
         },
         {
-          skillName: "C++",
-          fontAwesomeClassname: "simple-icons:cplusplus",
+          skillName: "CSS3",
+          fontAwesomeClassname: "fa-css3",
           style: {
-            color: "#E94E32",
+            color: "#1572B6",
           },
         },
         {
-          skillName: "Python",
-          fontAwesomeClassname: "simple-icons:python",
+          skillName: "Firebase",
+          fontAwesomeClassname: "simple-icons:firebase",
           style: {
-            color: "#3776AB",
+            color: "#FFA611",
+          },
+        },
+        {
+          skillName: "SQLite",
+          fontAwesomeClassname: "simple-icons:sqlite",
+          style: {
+            color: "#113D52",
+          },
+        },
+        {
+          skillName: "NodeJS",
+          fontAwesomeClassname: "simple-icons:node-dot-js",
+          style: {
+            color: "#339933",
           },
         },
       ],
