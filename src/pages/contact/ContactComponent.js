@@ -50,8 +50,14 @@ function Contact(props) {
               <SocialMedia />
               <br />
               <br />
-              <a {...styles} className="general-btn" href={greeting.resumeLink}>
-                See my Resume
+              <a
+                {...styles}
+                style={{ paddingInline: 50 }}
+                className="general-btn"
+                href={greeting.resumeLink}
+                target="_blank"
+              >
+                Resume
               </a>
             </div>
           </div>
@@ -69,7 +75,7 @@ function Contact(props) {
                 {blogSection["subtitle"]}
               </p>
               <div className="blogsite-btn-div">
-                <a {...styles} className="general-btn" href={blogSection.link}>
+                <a {...styles} className="general-btn" href={blogSection.link} target="_blank">
                   Medium Blogs
                 </a>
               </div>

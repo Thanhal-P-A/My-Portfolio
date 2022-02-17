@@ -1,15 +1,38 @@
 import React from "react";
 import "./Footer.css";
 import { Fade } from "react-reveal";
-import { greeting } from "../../portfolio.js";
+import { contactInfo } from "../../portfolio.js";
 /* eslint-disable jsx-a11y/accessible-emoji */
 
 export default function Footer(props) {
   return (
     <div className="footer-div">
-      <Fade>
+      <Fade bottom>
         <p className="footer-text" style={{ color: props.theme.secondaryText }}>
-          {/* Made with <span role="img">❤️</span> by {greeting.title2} */}
+          <a
+            href={`tel:${contactInfo.phone_num}`}
+            className="footer-phone"
+            target="_blank"
+            style={{
+              color: props.theme.secondaryText,
+              padding: 10,
+              textDecoration: "none",
+            }}
+          >
+            <i className="fas fa-phone-alt">{`\t${contactInfo.phone_num}`}</i>
+          </a>
+          <a
+            href={`mailto:${contactInfo.email_address}`}
+            className="footer-email"
+            target="_blank"
+            style={{
+              color: props.theme.secondaryText,
+              padding: 10,
+              textDecoration: "none",
+            }}
+          >
+            <i className="fa fa-envelope">{`\t${contactInfo.email_address}`}</i>
+          </a>
         </p>
       </Fade>
     </div>

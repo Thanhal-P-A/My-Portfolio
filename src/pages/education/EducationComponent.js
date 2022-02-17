@@ -29,8 +29,8 @@ function Education(props) {
                 className="experience-header-detail-text subTitle"
                 style={{ color: theme.secondaryText }}
               >
-                I actively participate in various programs inside and outside of
-                our field
+                I am a B.Tech graduate in C.S.E, who have done internship in
+                React Native and actively participated in various programs.
               </p>
             </div>
           </div>

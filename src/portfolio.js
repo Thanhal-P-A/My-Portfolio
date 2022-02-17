@@ -16,7 +16,7 @@ const greeting = {
   subTitle:
     "Senior Software Engineer, Hybrid Mobile App Developer, React Native Enthusiast.",
   resumeLink:
-    "https://drive.google.com/file/d/1JsvmKxlTRqwSa8TObzRerbvZoAJEaC8S/view?usp=sharing",
+    "https://drive.google.com/file/d/1xG1iUv7qgBw5LdycB6_0SuqaUeyfdtXE/view?usp=sharing",
 };
 
 const socialMediaLinks = {
@@ -26,10 +26,12 @@ const socialMediaLinks = {
   gmail: "thanhalpa@gmail.com",
   instagram: "https://www.instagram.com/thanhal_rafi/",
   whatsapp: "https://wa.me/919656464080?text=",
+  number: "+919656464080",
 };
 
 const contactInfo = {
   email_address: "thanhalpa@gmail.com",
+  phone_num: "+91 9656464080",
 };
 
 const skills = {
@@ -173,11 +175,15 @@ const degrees = {
   degrees: [
     {
       title: "Cochin University of Science and Technology",
-      subtitle: "B.Tech in Computer Science and Engineering",
+      subtitle: "Bachelor of Technology in Computer Science and Engineering",
       logo_path: "CusatLogo.png",
       alt_name: "CUSAT",
       duration: "2014 - 2018",
-      descriptions: ["⚡ I have completed my B.Tech in C.S.E with 7.01 CGPA."],
+      descriptions: [
+        "⚡ I have completed my B.Tech in C.S.E with a CGPA of 7.01.",
+        "⚡ Done one major and one mini project with team.",
+        "⚡ Class representative during 2015-2016.",
+      ],
       website_link: "https://www.cusat.ac.in/",
     },
   ],
@@ -192,7 +198,7 @@ const certifications = {
       certificate_link:
         "https://drive.google.com/file/d/1JVIaGWEiXzi1DEvp5kNPD1aOFmZboCYP/view?usp=sharing",
       alt_name: "Lookings",
-      color_code: "#C5E2EE",
+      color_code: "#2ab0ee",
     },
     {
       title: "B.Tech Certificate",
@@ -201,16 +207,16 @@ const certifications = {
       certificate_link:
         "https://drive.google.com/file/d/1J-K46DMhkzkYlrW7dE55fc1uY_fAkiwo/view?usp=sharing",
       alt_name: "BTech",
-      color_code: "#7A7A7A",
+      color_code: "#f7b908",
     },
     {
       title: "Amcat Report Card",
       subtitle: "Aspiring Minds",
       logo_path: "AmcatLogo.png",
       certificate_link:
-        "https://drive.google.com/file/d/1c32FZbcIxVJxq22BXcoFrr6Jlh5GbHY8/view?usp=sharing",
+        "https://drive.google.com/file/d/1Qrrn4Tz2xAu9IJIGZmYtgbChBS0e4fVv/view?usp=sharing",
       alt_name: "Amcat",
-      color_code: "#C5E2EE",
+      color_code: "#F7F7F7",
     },
     {
       title: "B.Tech Consolidation",
@@ -228,7 +234,7 @@ const certifications = {
       certificate_link:
         "https://drive.google.com/file/d/1JpCIxJJcf4udDzD1DoXckpUHi7_JCoUk/view?usp=sharing",
       alt_name: "Gate",
-      color_code: "#fffbf3",
+      color_code: "#fb1056",
     },
     {
       title: "HSE Certificate (12th)",
@@ -237,7 +243,7 @@ const certifications = {
       certificate_link:
         "https://drive.google.com/file/d/1JW9Sg4Z3iswAd8t0ugMxhjuzLBvKCQ8Y/view?usp=sharing",
       alt_name: "HSE",
-      color_code: "#bfbb42",
+      color_code: "#7A7A7A",
     },
   ],
 };
@@ -442,6 +448,31 @@ const projects = {
     },
     {
       id: "4",
+      name: "Dream PG (NEET PG Revision & preparation)",
+      url: "https://dreampg.co.in/",
+      description:
+        "Dream PG is an innovative NEET PG Revision & preparation tool that gives you an edge over standard Question Banks, with the use of innovative AI based Analytics.",
+      languages: [
+        {
+          name: "React Native",
+          iconifyClass: "logos-react",
+        },
+        {
+          name: "JavaScript",
+          iconifyClass: "logos-javascript",
+        },
+        {
+          name: "Redux",
+          iconifyClass: "logos-redux",
+        },
+        {
+          name: "One Signal",
+          iconifyClass: "logos-onesignal",
+        },
+      ],
+    },
+    {
+      id: "5",
       name: "Dr Perfect (Dr appointment for home consultation)",
       url: "",
       description:
@@ -474,7 +505,7 @@ const projects = {
       ],
     },
     {
-      id: "5",
+      id: "6",
       name: "Moise Safra (Event booking app)",
       url: "https://apps.apple.com/mx/app/moise-safra-center/id1450382691?l=en",
       description:
@@ -495,6 +526,40 @@ const projects = {
         {
           name: "Redux Saga",
           iconifyClass: "logos-redux-saga",
+        },
+      ],
+    },
+    {
+      id: "7",
+      name: "Just Miss (Running Game)",
+      url: "https://github.com/Thanhal-P-A/First-Game",
+      description:
+        "Simple animated game : Run or Fly without hitting any vehicles or birds.",
+      languages: [
+        {
+          name: "React Native",
+          iconifyClass: "logos-react",
+        },
+        {
+          name: "JavaScript",
+          iconifyClass: "logos-javascript",
+        },
+      ],
+    },
+    {
+      id: "8",
+      name: "To Do App",
+      url: "https://github.com/Thanhal-P-A/RNToDo",
+      description:
+        "Set reminder for tasks to do on specific group to get on time local notification.",
+      languages: [
+        {
+          name: "React Native",
+          iconifyClass: "logos-react",
+        },
+        {
+          name: "JavaScript",
+          iconifyClass: "logos-javascript",
         },
       ],
     },

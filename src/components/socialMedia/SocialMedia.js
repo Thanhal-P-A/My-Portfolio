@@ -6,6 +6,24 @@ export default function socialMedia() {
   return (
     <div className="social-media-div">
       <a
+        href={`tel:${socialMediaLinks.number}`}
+        className="icon-button linkedin"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <i className="fas fa-phone-alt"></i>
+        <span></span>
+      </a>
+      <a
+        href={`mailto:${socialMediaLinks.gmail}`}
+        className="icon-button google"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <i className="fa fa-envelope"></i>
+        <span></span>
+      </a>
+      <a
         href={socialMediaLinks.stackoverflow}
         className="icon-button stackoverflow"
         target="_blank"
@@ -30,15 +48,6 @@ export default function socialMedia() {
         rel="noopener noreferrer"
       >
         <i className="fab fa-linkedin-in"></i>
-        <span></span>
-      </a>
-      <a
-        href={`mailto:${socialMediaLinks.gmail}`}
-        className="icon-button google"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <i className="fab fa-google"></i>
         <span></span>
       </a>
       <a
