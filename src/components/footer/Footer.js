@@ -15,7 +15,8 @@ export default function Footer(props) {
             target="_blank"
             style={{
               color: props.theme.secondaryText,
-              padding: 20,
+              padding: 5,
+              margin: 5,
               paddingInline: 30,
               textDecoration: "none",
             }}
@@ -33,7 +34,8 @@ export default function Footer(props) {
             target="_blank"
             style={{
               color: props.theme.secondaryText,
-              padding: 20,
+              padding: 5,
+              margin: 5,
               paddingInline: 30,
               textDecoration: "none",
             }}
