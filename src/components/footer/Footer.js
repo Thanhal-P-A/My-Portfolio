@@ -15,11 +15,17 @@ export default function Footer(props) {
             target="_blank"
             style={{
               color: props.theme.secondaryText,
-              padding: 10,
+              padding: 20,
+              paddingInline: 30,
               textDecoration: "none",
             }}
           >
-            <i className="fas fa-phone-alt">{`\t${contactInfo.phone_num}`}</i>
+            <i className="fas fa-phone-alt">
+              &nbsp;
+              <a style={{ fontFamily: "Google Sans Regular" }}>
+                {contactInfo.phone_num}
+              </a>
+            </i>
           </a>
           <a
             href={`mailto:${contactInfo.email_address}`}
@@ -27,11 +33,17 @@ export default function Footer(props) {
             target="_blank"
             style={{
               color: props.theme.secondaryText,
-              padding: 10,
+              padding: 20,
+              paddingInline: 30,
               textDecoration: "none",
             }}
           >
-            <i className="fa fa-envelope">{`\t${contactInfo.email_address}`}</i>
+            <i className="fa fa-envelope">
+              &nbsp;
+              <a style={{ fontFamily: "Google Sans Regular" }}>
+                {contactInfo.email_address}
+              </a>
+            </i>
           </a>
         </p>
       </Fade>
