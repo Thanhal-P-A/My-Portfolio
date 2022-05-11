@@ -14,7 +14,7 @@ const greeting = {
   logo_name: "thanhal.pa()",
   full_name: "Thanhal P A",
   subTitle:
-    "Senior Software Engineer, Hybrid Mobile App Developer, React Native Enthusiast.",
+    "Senior Software Engineer, React Native Enthusiast, Hybrid Mobile App Developer (iOS & Android).",
   resumeLink:
     "https://drive.google.com/file/d/1xG1iUv7qgBw5LdycB6_0SuqaUeyfdtXE/view?usp=sharing",
 };
@@ -22,7 +22,7 @@ const greeting = {
 const socialMediaLinks = {
   stackoverflow: "https://stackoverflow.com/users/10657559",
   github: "https://github.com/thanhal-p-a",
-  linkedin: "https://www.linkedin.com/in/thanhal-p-a-3749ab143/",
+  linkedin: "https://www.linkedin.com/in/thanhal",
   gmail: "thanhalpa@gmail.com",
   instagram: "https://www.instagram.com/thanhal_rafi/",
   whatsapp: "https://wa.me/919656464080?text=",
@@ -40,9 +40,12 @@ const skills = {
       title: "Skills and Tools",
       fileName: "FullStackImg",
       skills: [
-        "⚡ Development of highly interactive UI for Mobile Applications",
-        "⚡ Deployment of both iOS and Android builds.",
-        "⚡ Integration of third party services such as Firebase, AES Encryption, SQLite, Rich Text Editor, TTS, Text Recognition, Google Map APIs, Social Media Feeds etc..",
+        "Development of highly interactive UI for Mobile Applications",
+        "Development & Deployment of both iOS and Android builds.",
+        "Integration of third party services such as Firebase, AES Encryption, SQLite, Rich Text Editor, TTS, Text Recognition, One Signal, Google Map APIs, Social Media Feeds etc..",
+        "Bridging native modules",
+        "Propose & Implement technical solutions for complex problems",
+        "Plan source code structure & reviewing source codes",
       ],
       softwareSkills: [
         {
@@ -253,7 +256,7 @@ const experience = {
   title: "Experience",
   subtitle: "Work and Internship",
   description:
-    "I've 3+ years of UI / Front End experience in Cross-Platform Mobile App Development using React Native.",
+    "I've 4 years of UI / Front End experience in Cross-Platform Mobile App Development using React Native.",
   header_image_path: "experience.svg",
   sections: [
     {
@@ -278,7 +281,7 @@ const experience = {
             "Tata Consultancy Services (Onward technologies - CCTNS Kerala Police)",
           company_url: "https://www.tcs.com/",
           logo_path: "TcsLogo.png",
-          duration: "Oct 2019 - Aug 2020",
+          duration: "Sep 2019 - Aug 2020",
           location: "Trivandrum,kerala,India",
           description:
             "Role: Team leadership; Analyse, Estimate, Design, Implement & Test Modules.",
@@ -289,7 +292,7 @@ const experience = {
           company: "iLeaf Sultions",
           company_url: "https://www.ileafsolutions.com/",
           logo_path: "IleafLogo.png",
-          duration: "Sep 2018 - jun 2019",
+          duration: "Sep 2018 - Jul 2019",
           location: "Cochin,kerala,India",
           description: `Role: Design, Implement and Integrate components.`,
           color: "#0071C5",
@@ -304,7 +307,7 @@ const experience = {
           company: "Lookings Soft",
           company_url: "https://lookingsoft.com/",
           logo_path: "LookingsLogo.png",
-          duration: "Jul 2018 - Sep 2018",
+          duration: "June 2018 - Sep 2018",
           location: "Cochin,kerala,India",
           description: "Training, research and understand the technology",
           color: "#4285F4",

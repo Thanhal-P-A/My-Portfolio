@@ -20,7 +20,7 @@ function SkillSection(props) {
   return (
     <div>
       {skills.data.map((skill, index) => {
-        console.log('----skills----index---',index % 2)
+        console.log("----skills----index---", index % 2);
         if (index % 2 === 0) {
           return (
             <div className="skills-main-div">
@@ -47,7 +47,7 @@ function SkillSection(props) {
                           className="subTitle skills-text"
                           style={{ color: theme.secondaryText }}
                         >
-                          {skillSentence}
+                          {"⚡ " + skillSentence}
                         </p>
                       );
                     })}
