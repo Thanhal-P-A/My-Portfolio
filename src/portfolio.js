@@ -16,7 +16,7 @@ const greeting = {
   subTitle:
     "Senior Software Engineer, React Native Enthusiast, Hybrid Mobile App Developer (iOS & Android).",
   resumeLink:
-    "https://drive.google.com/file/d/1xG1iUv7qgBw5LdycB6_0SuqaUeyfdtXE/view?usp=sharing",
+    "https://drive.google.com/file/d/1zJ996xyqnHjEGoR3Vxcv9JPSFTYhu-C9/view?usp=sharing",
 };
 
 const socialMediaLinks = {
@@ -256,7 +256,7 @@ const experience = {
   title: "Experience",
   subtitle: "Work and Internship",
   description:
-    "I've 4 years of UI / Front End experience in Cross-Platform Mobile App Development using React Native.",
+    "I've 4+ years of UI / Front End experience in Cross-Platform Mobile App Development using React Native.",
   header_image_path: "experience.svg",
   sections: [
     {
@@ -288,11 +288,11 @@ const experience = {
           color: "#4285F4",
         },
         {
-          title: "Junior Software Engineer (React Native)",
-          company: "iLeaf Sultions",
-          company_url: "https://www.ileafsolutions.com/",
-          logo_path: "IleafLogo.png",
-          duration: "Sep 2018 - Jul 2019",
+          title: "React Native Developer",
+          company: "Lookings Soft",
+          company_url: "https://lookingsoft.com/",
+          logo_path: "LookingsLogo.png",
+          duration: "June 2018 - Sep 2019",
           location: "Cochin,kerala,India",
           description: `Role: Design, Implement and Integrate components.`,
           color: "#0071C5",
@@ -476,7 +476,7 @@ const projects = {
     },
     {
       id: "5",
-      name: "Dr Perfect (Dr appointment for home consultation)",
+      name: "Doctor appointment for home consultation",
       url: "",
       description:
         "It consists 2 apps with one is for doctors and other for patients. Patients can see nearby doctors and book appointment for home consultation. Doctor have choice to accept appointment and start trip and it navigates to patient’s location.",
@@ -509,10 +509,10 @@ const projects = {
     },
     {
       id: "6",
-      name: "Moise Safra (Event booking app)",
-      url: "https://apps.apple.com/mx/app/moise-safra-center/id1450382691?l=en",
+      name: "Restaurant Menu Explore & Health Tracking",
+      url: "",
       description:
-        "An event listing and booking app for Moise Safra Center members. Members will have real-time access to events, registrations and account information.",
+        "Diners will get a visual experience and a clear understanding of the food they eat and the way it is sourced. They can order food through the app and track their health.",
       languages: [
         {
           name: "React Native",
@@ -525,10 +525,6 @@ const projects = {
         {
           name: "Redux",
           iconifyClass: "logos-redux",
-        },
-        {
-          name: "Redux Saga",
-          iconifyClass: "logos-redux-saga",
         },
       ],
     },
