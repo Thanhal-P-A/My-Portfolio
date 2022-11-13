@@ -42,7 +42,7 @@ const skills = {
       skills: [
         "Development of highly interactive UI for Mobile Applications",
         "Development & Deployment of both iOS and Android builds.",
-        "Integration of third party services such as Firebase, AES Encryption, SQLite, Rich Text Editor, TTS, Text Recognition, One Signal, Google Map APIs, Social Media Feeds etc..",
+        "Integration of third party services such as Instana Agent, Firebase, AES Encryption, SQLite, Rich Text Editor, TTS, Text Recognition, One Signal, Google Map APIs, Social Media Feeds etc..",
         "Bridging native modules",
         "Propose & Implement technical solutions for complex problems",
         "Plan source code structure & reviewing source codes",
@@ -256,22 +256,33 @@ const experience = {
   title: "Experience",
   subtitle: "Work and Internship",
   description:
-    "I've 4+ years of UI / Front End experience in Cross-Platform Mobile App Development using React Native.",
+    "I've 5 years of UI / Front End experience in Cross-Platform Mobile App Development using React Native.",
   header_image_path: "experience.svg",
   sections: [
     {
       title: "Work Experience",
       experiences: [
         {
+          title: "Senior React Native Developer",
+          company: "Emkan Finance (NTG Clarity)",
+          company_url: "https://www.emkanfinance.com.sa/",
+          logo_path: "EmkanLogo.png",
+          duration: "Oct 2022 - present",
+          location: "Riyah, Saudi Arabia",
+          description: `Role: Build, develop, deploy and test major financial services, frameworks, toolsets, and features for internal financial and payments processing systems.`,
+          color: "#0071C5",
+        },
+        {
           title: "Senior Software Engineer (React Native)",
           company: "Zerone Consulting",
           company_url: "https://www.zerone-consulting.com/",
           logo_path: "ZeroneLogo.png",
-          duration: "Aug 2020 - present",
+          duration: "Aug 2020 - Sep 2022",
           location: "Cochin,kerala,India",
           description: `Role: Propose & Implement technical solutions for complex problems;
           Plan source code structure & reviewing source codes;
           Internal evaluation of associates;
+          3rd party library integration;
           Mentoring junior resources.`,
           color: "#0071C5",
         },
@@ -346,10 +357,10 @@ const projects = {
   data: [
     {
       id: "0",
-      name: "X-fly (Health care management system)",
-      url: "https://www.systemanalytic.com/X-fly-Insights.html",
+      name: "Emkan Finance (Al Rajhi Bank)",
+      url: "https://apps.apple.com/app/id1508990688?mt=8",
       description:
-        "It is an expert information system for health care to assist experts specialized in different health care platforms. The system is helpful for sharing quantitative research component.",
+        "Emkan Finance is Fully owned by Al Rajhi Bank, one of the largest banks in the world. The app can fulfill the urgent financial needs digitally - user can apply for finance and find out if its approved all through the app, without the need to use traditional ways.",
       languages: [
         {
           name: "React Native",
@@ -364,12 +375,8 @@ const projects = {
           iconifyClass: "logos-redux",
         },
         {
-          name: "Firebase",
-          iconifyClass: "logos-firebase",
-        },
-        {
-          name: "SQLite",
-          iconifyClass: "logos-sqlite",
+          name: "React Native Maps",
+          iconifyClass: "logos-google-maps",
         },
       ],
     },
@@ -405,6 +412,35 @@ const projects = {
     },
     {
       id: "2",
+      name: "X-fly (Health care management system)",
+      url: "https://www.systemanalytic.com/X-fly-Insights.html",
+      description:
+        "It is an expert information system for health care to assist experts specialized in different health care platforms. The system is helpful for sharing quantitative research component.",
+      languages: [
+        {
+          name: "React Native",
+          iconifyClass: "logos-react",
+        },
+        {
+          name: "JavaScript",
+          iconifyClass: "logos-javascript",
+        },
+        {
+          name: "Redux",
+          iconifyClass: "logos-redux",
+        },
+        {
+          name: "Firebase",
+          iconifyClass: "logos-firebase",
+        },
+        {
+          name: "SQLite",
+          iconifyClass: "logos-sqlite",
+        },
+      ],
+    },
+    {
+      id: "3",
       name: "Skyline Tracking Tool",
       url: "https://apps.apple.com/sa/app/skyline-tracking-tool/id1568292427",
       description:
@@ -425,7 +461,7 @@ const projects = {
       ],
     },
     {
-      id: "3",
+      id: "4",
       name: "Easyish (OCR - Scan)",
       url: "https://play.google.com/store/apps/details?id=easyish.zerone",
       description:
@@ -450,7 +486,7 @@ const projects = {
       ],
     },
     {
-      id: "4",
+      id: "5",
       name: "Dream PG (NEET PG Revision & preparation)",
       url: "https://dreampg.co.in/",
       description:
@@ -475,7 +511,7 @@ const projects = {
       ],
     },
     {
-      id: "5",
+      id: "6",
       name: "Doctor appointment for home consultation",
       url: "",
       description:
@@ -508,7 +544,7 @@ const projects = {
       ],
     },
     {
-      id: "6",
+      id: "7",
       name: "Restaurant Menu Explore & Health Tracking",
       url: "",
       description:
@@ -529,7 +565,7 @@ const projects = {
       ],
     },
     {
-      id: "7",
+      id: "8",
       name: "Just Miss (Running Game)",
       url: "https://github.com/Thanhal-P-A/First-Game",
       description:
@@ -546,7 +582,7 @@ const projects = {
       ],
     },
     {
-      id: "8",
+      id: "9",
       name: "To Do App",
       url: "https://github.com/Thanhal-P-A/RNToDo",
       description:
