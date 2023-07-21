@@ -360,7 +360,8 @@ const projects = {
       name: "Emkan Finance (Al-Rajhi Bank Subsidiary)",
       url: "https://apps.apple.com/app/id1508990688?mt=8",
       description:
-        "1M+ Downloads & 4.2★ Rating\nEmkan Finance is Fully owned by Al Rajhi Bank, one of the largest banks in the world. The app can fulfill the urgent financial needs digitally - user can apply for finance and find out if its approved all through the app, without the need to use traditional ways.",
+        `1M+ Downloads & 4.2★ Rating
+        Emkan Finance is Fully owned by Al Rajhi Bank, one of the largest banks in the world. The app can fulfill the urgent financial needs digitally - user can apply for finance and find out if its approved all through the app, without the need to use traditional ways.`,
       languages: [
         {
           name: "React Native",
@@ -386,7 +387,8 @@ const projects = {
         "Pol - App (Official app of Kerala Police for public safety and service)",
       url: "https://keralapolice.gov.in/page/mobile-apps",
       description:
-        "500K+ Downloads & 4.5★ Rating\nIntegrated mobile app for public safety and services. Public can avail 30+ services from this app. SOS. Live Tracking, FIR download and report abandoned child are important services among them.",
+        `500K+ Downloads & 4.5★ Rating
+        Integrated mobile app for public safety and services. Public can avail 30+ services from this app. SOS. Live Tracking, FIR download and report abandoned child are important services among them.`,
       languages: [
         {
           name: "React Native",
