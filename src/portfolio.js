@@ -27,6 +27,7 @@ const socialMediaLinks = {
   instagram: "https://www.instagram.com/thanhal_rafi/",
   whatsapp: "https://wa.me/919656464080?text=",
   number: "+919656464080",
+  npm: "https://www.npmjs.com/~thanhal"
 };
 
 const contactInfo = {
