@@ -42,15 +42,6 @@ export default function socialMedia() {
         <span></span>
       </a>
       <a
-        href={socialMediaLinks.npm}
-        className="icon-button npm"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <i className="fab fa-instagram"></i>
-        <span></span>
-      </a>
-      <a
         href={socialMediaLinks.linkedin}
         className="icon-button linkedin"
         target="_blank"
