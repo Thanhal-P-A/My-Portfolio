@@ -343,7 +343,7 @@ const contactPageData = {
     title: "Get in Touch",
     profile_image_path: "profile_photo.jpg",
     description:
-      "You can get in touch with me at the places mentioned below. I will try to get back to you as fast as I can. ",
+      "Please feel free to contact me through the provided channels, and I'll do my best to respond as promptly as possible",
   },
   blogSection: {
     title: "Blogs",
