@@ -264,11 +264,21 @@ const experience = {
       title: "Work Experience",
       experiences: [
         {
+          title: "Senior Software Engineer",
+          company: "StimScience",
+          company_url: "https://www.stimscience.com/",
+          logo_path: "StimScienceLogo.png",
+          duration: "Jan 2024 - present",
+          location: "California, USA (Remote)",
+          description: `Role: Build, develop, deploy and test hybrid mobile applications and services by 3rd party library integration for their enterprise platform.`,
+          color: "#4285F4",
+        },
+        {
           title: "Senior React Native Developer",
           company: "Emkan Finance (NTG Clarity)",
           company_url: "https://www.emkanfinance.com.sa/",
           logo_path: "EmkanLogo.png",
-          duration: "Oct 2022 - present",
+          duration: "Oct 2022 - Oct 2023",
           location: "Riyah, Saudi Arabia",
           description: `Role: Build, develop, deploy and test major financial services, frameworks, toolsets, and features for internal financial and payments processing systems.`,
           color: "#0071C5",
