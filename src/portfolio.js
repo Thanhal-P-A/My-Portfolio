@@ -393,7 +393,7 @@ const projects = {
         "Pol App ( Kerala Police official app for public safety and service)",
       url: "https://play.google.com/store/apps/details?id=com.keralapolice",
       description:
-        `500K+ Downloads 4.1★ Rating.\nIntegrated mobile app for public safety and services. Public can avail 30+ services from this app. SOS. Live Tracking, FIR download and report abandoned child are important services among them.`,
+        '500K+ Downloads with 4.1★ Rating.\nIntegrated mobile app for public safety and services. Public can avail 30+ services from this app. SOS. Live Tracking, FIR download and report abandoned child are important services among them.',
       languages: [
         {
           name: "React Native",
