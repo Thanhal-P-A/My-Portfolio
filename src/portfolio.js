@@ -422,7 +422,7 @@ const projects = {
       name: "Emkan (Al-Rajhi Bank Subsidiary)",
       url: "https://apps.apple.com/app/id1508990688",
       description:
-        `1M+ Downloads with 4.4★ Rating.\nEmkan Finance is Fully owned by Al Rajhi Bank, one of the largest banks in the world. The app can fulfill the urgent financial needs digitally - user can apply for finance and find out if its approved all through the app, without the need to use traditional ways.`,
+        '1M+ Downloads with 4.4★ Rating.\nEmkan Finance is Fully owned by Al Rajhi Bank, one of the largest banks in the world. The app can fulfill the urgent financial needs digitally - user can apply for finance and find out if its approved all through the app, without the need to use traditional ways.',
       languages: [
         {
           name: "React Native",
