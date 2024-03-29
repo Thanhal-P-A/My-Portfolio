@@ -321,21 +321,21 @@ const experience = {
         },
       ],
     },
-    {
-      title: "Internship",
-      experiences: [
-        {
-          title: "React Native Trainee",
-          company: "Lookings Soft",
-          company_url: "https://lookingsoft.com/",
-          logo_path: "LookingsLogo.png",
-          duration: "June 2018 - Sep 2018",
-          location: "Cochin,kerala,India",
-          description: "Training, research and understand the technology",
-          color: "#4285F4",
-        },
-      ],
-    },
+    // {
+    //   title: "Internship",
+    //   experiences: [
+    //     {
+    //       title: "React Native Trainee",
+    //       company: "Lookings Soft",
+    //       company_url: "https://lookingsoft.com/",
+    //       logo_path: "LookingsLogo.png",
+    //       duration: "June 2018 - Sep 2018",
+    //       location: "Cochin,kerala,India",
+    //       description: "Training, research and understand the technology",
+    //       color: "#4285F4",
+    //     },
+    //   ],
+    // },
   ],
 };
 
