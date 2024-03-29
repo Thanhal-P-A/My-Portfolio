@@ -368,33 +368,29 @@ const projects = {
   data: [
     {
       id: "0",
-      name: "Emkan (1M+ Downloads with 4.2★ Rating - Al-Rajhi Bank Subsidiary)",
-      url: "https://apps.apple.com/app/id1508990688?mt=8",
+      name: "Somnee (Sleep is your Superpower)",
+      url: "https://apps.apple.com/us/app/somnee/id6445828473",
       description:
-        `Emkan Finance is Fully owned by Al Rajhi Bank, one of the largest banks in the world. The app can fulfill the urgent financial needs digitally - user can apply for finance and find out if its approved all through the app, without the need to use traditional ways.`,
+        `The Somnee app works with the Somnee Smart Sleep Headband. The world's first clinical grade headband that helps you fall asleep faster, longer, and achieve higher quality restorative sleep. Learn more and get yours at www.somneesleep.com.`,
       languages: [
         {
           name: "React Native",
           iconifyClass: "logos-react",
         },
         {
-          name: "JavaScript",
-          iconifyClass: "logos-javascript",
+          name: "TypeScript",
+          iconifyClass: "logos:typescript-icon",
         },
         {
-          name: "Redux",
-          iconifyClass: "logos-redux",
-        },
-        {
-          name: "React Native Maps",
-          iconifyClass: "logos-google-maps",
+          name: "React Native Bluetooth Low Energy",
+          iconifyClass: "logos-bluetooth",
         },
       ],
     },
     {
       id: "1",
       name:
-        "Pol App (500K+ Downloads with 4.5★ Rating - Kerala Police official app for public safety and service)",
+        "Pol App (500K+⇣ & 4.5★ - Kerala Police official app for public safety and service)",
       url: "https://keralapolice.gov.in/page/mobile-apps",
       description:
         `Integrated mobile app for public safety and services. Public can avail 30+ services from this app. SOS. Live Tracking, FIR download and report abandoned child are important services among them.`,
@@ -418,6 +414,52 @@ const projects = {
         {
           name: "Redux Saga",
           iconifyClass: "logos-redux-saga",
+        },
+      ],
+    },
+    {
+      id: "10",
+      name: "Emkan (1M+⇣ & 4.2★ - Al-Rajhi Bank Subsidiary)",
+      url: "https://apps.apple.com/app/id1508990688?mt=8",
+      description:
+        `Emkan Finance is Fully owned by Al Rajhi Bank, one of the largest banks in the world. The app can fulfill the urgent financial needs digitally - user can apply for finance and find out if its approved all through the app, without the need to use traditional ways.`,
+      languages: [
+        {
+          name: "React Native",
+          iconifyClass: "logos-react",
+        },
+        {
+          name: "JavaScript",
+          iconifyClass: "logos-javascript",
+        },
+        {
+          name: "Redux",
+          iconifyClass: "logos-redux",
+        },
+        {
+          name: "React Native Maps",
+          iconifyClass: "logos-google-maps",
+        },
+      ],
+    },
+    {
+      id: "11",
+      name: "tejouri (A Digital Home For Your Legacy)",
+      url: "https://apps.apple.com/us/app/tejouri/id6473512657",
+      description:
+        `Create your digital vault to keep safe your entire life admin. tejouri can securely hold important documents, and multimedia files, ensuring secure storage for your life's most important files and transmission of your portfolio to your loved ones at a key time.`,
+      languages: [
+        {
+          name: "React Native",
+          iconifyClass: "logos-react",
+        },
+        {
+          name: "TypeScript",
+          iconifyClass: "logos:typescript-icon",
+        },
+        {
+          name: "In App Purchase",
+          iconifyClass: "carbon:purchase",
         },
       ],
     },
@@ -492,7 +534,7 @@ const projects = {
         },
         {
           name: "TypeScript",
-          iconifyClass: "logos-typescript",
+          iconifyClass: "logos:typescript-icon",
         },
       ],
     },
