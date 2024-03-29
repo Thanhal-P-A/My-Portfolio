@@ -17,6 +17,7 @@ function ExperienceAccordion(props) {
                 className="accord-panel"
                 title={section["title"]}
                 key={section["title"]}
+                expanded
               >
                 {section["experiences"].map((experience) => {
                   return (
