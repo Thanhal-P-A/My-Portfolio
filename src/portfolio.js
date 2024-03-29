@@ -390,7 +390,7 @@ const projects = {
     {
       id: "1",
       name:
-        "Pol App (500K+⇩ & 4.1★ - Kerala Police official app for public safety and service)",
+        "Pol App (500K+ ⬇ with 4.1★ - Kerala Police official app for public safety and service)",
       url: "https://play.google.com/store/apps/details?id=com.keralapolice",
       description:
         `Integrated mobile app for public safety and services. Public can avail 30+ services from this app. SOS. Live Tracking, FIR download and report abandoned child are important services among them.`,
@@ -419,7 +419,7 @@ const projects = {
     },
     {
       id: "10",
-      name: "Emkan (1M+⇩ & 4.4★ - Al-Rajhi Bank Subsidiary)",
+      name: "Emkan (1M+ ⬇ with 4.4★ - Al-Rajhi Bank Subsidiary)",
       url: "https://apps.apple.com/app/id1508990688",
       description:
         `Emkan Finance is Fully owned by Al Rajhi Bank, one of the largest banks in the world. The app can fulfill the urgent financial needs digitally - user can apply for finance and find out if its approved all through the app, without the need to use traditional ways.`,
