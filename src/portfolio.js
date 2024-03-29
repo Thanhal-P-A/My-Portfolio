@@ -257,7 +257,7 @@ const experience = {
   title: "Experience",
   subtitle: "Work and Internship",
   description:
-    "I've 5 years of UI / Front End experience in Cross-Platform Mobile App Development using React Native.",
+    "I've 6 years of UI / Front End experience in Cross-Platform Mobile App Development using React Native.",
   header_image_path: "experience.svg",
   sections: [
     {
