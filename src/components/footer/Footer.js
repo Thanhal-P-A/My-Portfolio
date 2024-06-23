@@ -6,7 +6,7 @@ import { contactInfo } from "../../portfolio.js";
 
 export default function Footer(props) {
   return (
-    <div className="footer-div">
+    <div className="footer-div" style={{ backgroundColor: props.theme.body }}>
       <Fade bottom>
         <p className="footer-text" style={{ color: props.theme.secondaryText }}>
           <a

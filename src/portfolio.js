@@ -3,7 +3,7 @@
 // Website related settings
 const settings = {
   isSplash: true, // Change this to true if you want to use the splash screen.
-  useCustomCursor: false, // Change this to false if you want the good'ol cursor
+  useCustomCursor: true, // Change this to false if you want the good'ol cursor
   googleTrackingID: "UA-174238252-2",
 };
 
@@ -27,7 +27,7 @@ const socialMediaLinks = {
   instagram: "https://www.instagram.com/thanhal_rafi/",
   whatsapp: "https://wa.me/919656464080?text=",
   number: "+919656464080",
-  npm: "https://www.npmjs.com/~thanhal"
+  npm: "https://www.npmjs.com/~thanhal",
 };
 
 const contactInfo = {
@@ -184,8 +184,9 @@ const degrees = {
       alt_name: "CUSAT",
       duration: "2014 - 2018",
       descriptions: [
-        "⚡ I have completed my B.Tech in C.S.E with a CGPA of 7.01.",
-        "⚡ Done one major and one mini project with team.",
+        "⚡ Qualified for GATE 2018.",
+        "⚡ Completed B.Tech in C.S.E with a CGPA of 7.01.",
+        "⚡ Worked on one major and one mini project with a team.",
         "⚡ Class representative during 2015-2016.",
       ],
       website_link: "https://www.cusat.ac.in/",
@@ -232,8 +233,8 @@ const certifications = {
       color_code: "#0C9D58",
     },
     {
-      title: "Gate Score Card",
-      subtitle: "Gate 2018",
+      title: "GATE Score Card",
+      subtitle: "GATE 2018",
       logo_path: "GateLogo.png",
       certificate_link:
         "https://drive.google.com/file/d/1JpCIxJJcf4udDzD1DoXckpUHi7_JCoUk/view?usp=sharing",
@@ -289,7 +290,7 @@ const experience = {
           company_url: "https://www.zerone-consulting.com/",
           logo_path: "ZeroneLogo.png",
           duration: "Aug 2020 - Sep 2022",
-          location: "Cochin,kerala,India",
+          location: "Kochi, kerala, India",
           description: `Role: Propose & Implement technical solutions for complex problems;
           Plan source code structure & reviewing source codes;
           Internal evaluation of associates;
@@ -315,7 +316,7 @@ const experience = {
           company_url: "https://lookingsoft.com/",
           logo_path: "LookingsLogo.png",
           duration: "June 2018 - Sep 2019",
-          location: "Cochin,kerala,India",
+          location: "Kochi, kerala, India",
           description: `Role: Design, Implement and Integrate components.`,
           color: "#0071C5",
         },
@@ -330,7 +331,7 @@ const experience = {
     //       company_url: "https://lookingsoft.com/",
     //       logo_path: "LookingsLogo.png",
     //       duration: "June 2018 - Sep 2018",
-    //       location: "Cochin,kerala,India",
+    //       location: "Kochi, kerala, India",
     //       description: "Training, research and understand the technology",
     //       color: "#4285F4",
     //     },
@@ -370,8 +371,7 @@ const projects = {
       id: "0",
       name: "Somnee (Sleep is your Superpower)",
       url: "https://apps.apple.com/us/app/somnee/id6445828473",
-      description:
-        `The Somnee app works with the Somnee Smart Sleep Headband. The world's first clinical grade headband that helps you fall asleep faster, longer, and achieve higher quality restorative sleep. Learn more and get yours at www.somneesleep.com.`,
+      description: `The Somnee app works with the Somnee Smart Sleep Headband. The world's first clinical grade headband that helps you fall asleep faster, longer, and achieve higher quality restorative sleep. Learn more and get yours at www.somneesleep.com.`,
       languages: [
         {
           name: "React Native",
@@ -393,7 +393,7 @@ const projects = {
         "Pol App ( Kerala Police official app for public safety and service)",
       url: "https://play.google.com/store/apps/details?id=com.keralapolice",
       description:
-        '500K+ Downloads with 4.1★ Rating.\nIntegrated mobile app for public safety and services. Public can avail 30+ services from this app. SOS. Live Tracking, FIR download and report abandoned child are important services among them.',
+        "500K+ Downloads with 4.1★ Rating.\nIntegrated mobile app for public safety and services. Public can avail 30+ services from this app. SOS. Live Tracking, FIR download and report abandoned child are important services among them.",
       languages: [
         {
           name: "React Native",
@@ -422,7 +422,7 @@ const projects = {
       name: "Emkan (Al-Rajhi Bank Subsidiary)",
       url: "https://apps.apple.com/app/id1508990688",
       description:
-        '1M+ Downloads with 4.4★ Rating.\nEmkan Finance is Fully owned by Al Rajhi Bank, one of the largest banks in the world. The app can fulfill the urgent financial needs digitally - user can apply for finance and find out if its approved all through the app, without the need to use traditional ways.',
+        "1M+ Downloads with 4.4★ Rating.\nEmkan Finance is Fully owned by Al Rajhi Bank, one of the largest banks in the world. The app can fulfill the urgent financial needs digitally - user can apply for finance and find out if its approved all through the app, without the need to use traditional ways.",
       languages: [
         {
           name: "React Native",
@@ -446,8 +446,7 @@ const projects = {
       id: "11",
       name: "tejouri (A Digital Home For Your Legacy)",
       url: "https://apps.apple.com/us/app/tejouri/id6473512657",
-      description:
-        `Create your digital vault to keep safe your entire life admin. tejouri can securely hold important documents, and multimedia files, ensuring secure storage for your life's most important files and transmission of your portfolio to your loved ones at a key time.`,
+      description: `Create your digital vault to keep safe your entire life admin. tejouri can securely hold important documents, and multimedia files, ensuring secure storage for your life's most important files and transmission of your portfolio to your loved ones at a key time.`,
       languages: [
         {
           name: "React Native",

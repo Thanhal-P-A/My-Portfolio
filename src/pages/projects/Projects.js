@@ -19,14 +19,10 @@ function Projects(props) {
   });
 
   return (
-    <div className="projects-main">
-      <Header theme={theme} setTheme={props.setTheme} />
+    <div className="projects-main" id="projects">
       <div className="basic-projects">
-        <Fade bottom duration={2000} distance="40px">
+        <Fade left duration={1000}>
           <div className="projects-heading-div">
-            <div className="projects-heading-img-div">
-              <ProjectsImg theme={theme} />
-            </div>
             <div className="projects-heading-text-div">
               <h1
                 className="projects-heading-text"
@@ -41,6 +37,11 @@ function Projects(props) {
                 {projectsHeader["description"]}
               </p>
             </div>
+          </div>
+        </Fade>
+        <Fade right duration={1000}>
+          <div className="projects-heading-img-div">
+            <ProjectsImg theme={theme} />
           </div>
         </Fade>
       </div>
@@ -62,7 +63,6 @@ function Projects(props) {
       </a>
       <br />
       <br />
-      <Footer theme={props.theme} onToggle={props.onToggle} />
     </div>
   );
 }
