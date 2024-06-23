@@ -1,12 +1,15 @@
 import React, { useState, useEffect } from "react";
-import "./App.css";
-import Main from "./containers/Main";
+import ReactGA from "react-ga";
+import { HashRouter } from "react-router-dom";
+import { CursorProvider } from "react-cursor-custom";
 import { ThemeProvider } from "styled-components";
+
+import Home from "./pages/home/HomeComponent";
 import { themes } from "./theme";
 import { GlobalStyles } from "./global";
-import { CursorProvider } from "react-cursor-custom";
 import { settings } from "./portfolio";
-import ReactGA from "react-ga";
+import "./App.css";
+import Header from "./components/header/Header";
 
 function App() {
   useEffect(() => {
@@ -18,8 +21,18 @@ function App() {
     }
   }, []);
 
-  const [theme, setTheme] = useState(localStorage.getItem("theme") || "dark");
+  const [theme, setTheme] = useState(localStorage.getItem("theme") || "light");
   const useCursor = settings.useCustomCursor;
+
+  const HomeContainer = () => {
+    return (
+      <div>
+        <HashRouter basename="/">
+          <Home theme={themes[theme]} setTheme={setTheme} />
+        </HashRouter>
+      </div>
+    );
+  };
 
   return (
     <ThemeProvider theme={themes[theme]}>
@@ -32,10 +45,10 @@ function App() {
               ringSize={25}
               transitionTime={75}
             >
-              <Main theme={themes[theme]} setTheme={setTheme} />
+              <HomeContainer />
             </CursorProvider>
           ) : (
-            <Main theme={themes[theme]} setTheme={setTheme} />
+            <HomeContainer />
           )}
         </div>
       </>

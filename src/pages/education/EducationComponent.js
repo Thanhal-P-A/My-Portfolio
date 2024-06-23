@@ -10,14 +10,10 @@ import { Fade } from "react-reveal";
 function Education(props) {
   const theme = props.theme;
   return (
-    <div className="education-main">
-      <Header theme={props.theme} setTheme={props.setTheme} />
+    <div className="education-main" id="education">
       <div className="basic-education">
-        <Fade bottom duration={2000} distance="40px">
+        <Fade top duration={2000} distance="40px">
           <div className="heading-div">
-            <div className="heading-img-div">
-              <EducationImg theme={theme} />
-            </div>
             <div className="heading-text-div">
               <h1 className="heading-text" style={{ color: theme.text }}>
                 Education
@@ -33,12 +29,14 @@ function Education(props) {
                 React Native and actively participated in various programs.
               </p>
             </div>
+            <div className="heading-img-div">
+              <EducationImg theme={theme} />
+            </div>
           </div>
         </Fade>
         <Educations theme={props.theme} />
         <Certifications theme={props.theme} />
       </div>
-      <Footer theme={props.theme} />
     </div>
   );
 }

@@ -1,11 +1,13 @@
 .projects-main {
   width: 100%;
   text-align: center;
+  padding-top: 150px;
 }
 
 .basic-projects {
   margin-left: 5%;
   margin-right: 5%;
+  flex-direction: row;
 }
 
 .projects-heading-div {
@@ -19,6 +21,7 @@
 .projects-heading-img-div {
   align-items: center;
   justify-content: center;
+  margin-top: 20px;
 }
 
 .projects-heading-text-div {
@@ -26,7 +29,7 @@
 }
 
 .projects-heading-img-div > * {
-  max-width: 100%;
+  max-width: 60%;
   height: auto;
 }
 
