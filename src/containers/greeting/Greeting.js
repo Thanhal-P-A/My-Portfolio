@@ -1,11 +1,11 @@
 import React from "react";
-import "./Greeting.css";
-import SocialMedia from "../../components/socialMedia/SocialMedia";
-import { greeting } from "../../portfolio";
 import { Fade } from "react-reveal";
-import { useHistory } from "react-router-dom";
-import FeelingProud from "./FeelingProud";
 import { style } from "glamor";
+import { useHistory } from "react-router-dom";
+
+import FeelingProud from "./FeelingProud";
+import { greeting } from "../../portfolio";
+import "./Greeting.css";
 
 export default function Greeting(props) {
   const theme = props.theme;
@@ -35,18 +35,13 @@ export default function Greeting(props) {
                 </span>
                 {greeting.subTitle}
               </p>
-              {/* <SocialMedia /> */}
-              <div className="portfolio-repo-btn-div">
-                <button
-                  {...styles}
-                  className="button"
-                  onClick={() => {
-                    history.push("/contact");
-                  }}
-                >
-                  Contact Me
-                </button>
-              </div>
+              <a href="/#contact" style={{ textDecoration: "none" }}>
+                <div className="portfolio-repo-btn-div">
+                  <button {...styles} className="button">
+                    Contact Me
+                  </button>
+                </div>
+              </a>
             </div>
           </div>
           <div className="greeting-image-div">

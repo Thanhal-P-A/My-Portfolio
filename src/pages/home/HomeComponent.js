@@ -37,14 +37,12 @@ function Home(props) {
   return (
     <div>
       <Header {...props} />
-      <div>
-        <Greeting {...props} />
-        <Skills {...props} />
-        <Experience {...props} />
-        <Education {...props} />
-        <Projects {...props} />
-        <Contact {...props} />
-      </div>
+      <Greeting {...props} />
+      <Skills {...props} />
+      <Experience {...props} />
+      <Education {...props} />
+      <Projects {...props} />
+      <Contact {...props} />
       <Footer {...props} />
     </div>
   );
