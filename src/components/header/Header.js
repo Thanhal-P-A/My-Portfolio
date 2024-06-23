@@ -16,17 +16,17 @@ const HeaderItems = [
     },
   },
   {
-    title: "Education and Certifications",
-    props: {
-      className: "ec",
-      href: "#education",
-    },
-  },
-  {
     title: "Experience",
     props: {
       className: "xp",
       href: "#experience",
+    },
+  },
+  {
+    title: "Education and Certifications",
+    props: {
+      className: "ec",
+      href: "#education",
     },
   },
   {
@@ -121,8 +121,11 @@ function Header(props) {
                 <li>
                   <a
                     {...item.props}
-                    activeStyle={{ fontWeight: "bold" }}
-                    style={{ borderRadius: 5, color: theme.text }}
+                    style={{
+                      borderRadius: 5,
+                      color: theme.text,
+                      fontWeight: "bold",
+                    }}
                   >
                     {item.title}
                   </a>
