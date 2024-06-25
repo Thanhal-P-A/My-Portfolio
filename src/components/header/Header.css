@@ -51,6 +51,7 @@
 /* menu */
 .menu {
   font-family: "Google Sans Regular";
+  padding-left: 0;
 }
 
 .header .menu {
@@ -209,6 +210,7 @@
     text-decoration: none;
     margin-top: 15px;
     line-height: normal;
+    align-items: center;
   }
 
   .header {
