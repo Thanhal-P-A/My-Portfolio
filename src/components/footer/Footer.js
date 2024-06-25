@@ -1,8 +1,8 @@
 import React from "react";
-import "./Footer.css";
 import { Fade } from "react-reveal";
+
 import { contactInfo } from "../../portfolio.js";
-/* eslint-disable jsx-a11y/accessible-emoji */
+import "./Footer.css";
 
 export default function Footer(props) {
   return (
@@ -12,6 +12,7 @@ export default function Footer(props) {
           <a
             href={`tel:${contactInfo.phone_num}`}
             className="footer-phone"
+            rel="noopener noreferrer"
             target="_blank"
             style={{
               color: props.theme.secondaryText,
@@ -31,6 +32,7 @@ export default function Footer(props) {
           <a
             href={`mailto:${contactInfo.email_address}`}
             className="footer-email"
+            rel="noopener noreferrer"
             target="_blank"
             style={{
               color: props.theme.secondaryText,

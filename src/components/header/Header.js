@@ -4,7 +4,7 @@ import { CgSun } from "react-icons/cg/";
 import { HiMoon } from "react-icons/hi";
 import { style } from "glamor";
 
-import { greeting, settings } from "../../portfolio.js";
+import { greeting } from "../../portfolio.js";
 import "./Header.css";
 
 const HeaderItems = [
@@ -68,8 +68,6 @@ function Header(props) {
       }`,
     },
   });
-
-  const link = settings.isSplash ? "/splash" : "home";
 
   const [currTheme, setCurrTheme] = useState(props.theme);
 
