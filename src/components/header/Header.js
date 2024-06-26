@@ -1,10 +1,10 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Fade } from "react-reveal";
 import { CgSun } from "react-icons/cg/";
 import { HiMoon } from "react-icons/hi";
 import { style } from "glamor";
 
-import { greeting, settings } from "../../portfolio.js";
+import { greeting } from "../../portfolio.js";
 import "./Header.css";
 
 const HeaderItems = [
@@ -47,7 +47,6 @@ const HeaderItems = [
 
 function Header(props) {
   const theme = props.theme;
-
   const styles = style({
     cursor: "pointer",
     height: "45px",
@@ -68,8 +67,6 @@ function Header(props) {
       }`,
     },
   });
-
-  const link = settings.isSplash ? "/splash" : "home";
 
   const [currTheme, setCurrTheme] = useState(props.theme);
 
@@ -100,6 +97,35 @@ function Header(props) {
       />
     );
 
+  useEffect(() => {
+    const menuItems = document.querySelectorAll(".header .menu a");
+    const menuCheckbox = document.getElementById("menu-btn");
+
+    const handleClick = (event) => {
+      const target = document.querySelector(event.target.hash);
+      if (target) {
+        event.preventDefault();
+        menuCheckbox.click();
+        setTimeout(() => {
+          window.scrollTo({
+            top: target.offsetTop,
+            behavior: "smooth",
+          });
+        }, 300);
+      }
+    };
+
+    menuItems.forEach((item) => {
+      item.addEventListener("click", handleClick);
+    });
+
+    return () => {
+      menuItems.forEach((item) => {
+        item.removeEventListener("click", handleClick);
+      });
+    };
+  }, []);
+
   return (
     <Fade top duration={1000} distance="20px">
       <div className="fixed-header" style={{ backgroundColor: theme.body }}>
@@ -116,22 +142,17 @@ function Header(props) {
             <span className="navicon"></span>
           </label>
           <ul className="menu">
-            {HeaderItems.map((item) => {
-              return (
-                <li>
-                  <a
-                    {...item.props}
-                    style={{
-                      borderRadius: 5,
-                      color: theme.text,
-                      fontWeight: "bold",
-                    }}
-                  >
-                    {item.title}
-                  </a>
-                </li>
-              );
-            })}
+            {HeaderItems.map((item) => (
+              <li key={item.title}>
+                <a
+                  {...item.props}
+                  activeStyle={{ fontWeight: "bold" }}
+                  style={{ borderRadius: 5, color: theme.text }}
+                >
+                  {item.title}
+                </a>
+              </li>
+            ))}
             <button {...styles} onClick={changeTheme}>
               {icon}
             </button>
