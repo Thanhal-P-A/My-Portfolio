@@ -1,7 +1,6 @@
 import React from "react";
 import { Fade } from "react-reveal";
 import { style } from "glamor";
-import { useHistory } from "react-router-dom";
 
 import FeelingProud from "./FeelingProud";
 import { greeting } from "../../portfolio";
@@ -9,7 +8,6 @@ import "./Greeting.css";
 
 export default function Greeting(props) {
   const theme = props.theme;
-  const history = useHistory();
 
   const styles = style({
     backgroundColor: `${theme.accentBright}`,

@@ -9,7 +9,6 @@ import { themes } from "./theme";
 import { GlobalStyles } from "./global";
 import { settings } from "./portfolio";
 import "./App.css";
-import Header from "./components/header/Header";
 
 function App() {
   useEffect(() => {
