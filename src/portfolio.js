@@ -16,7 +16,7 @@ const greeting = {
   subTitle:
     "Senior Software Engineer, React Native Enthusiast, Hybrid Mobile App Developer (iOS & Android).",
   resumeLink:
-    "https://drive.google.com/file/d/1TViGk-LwduO5uUHFlbIfAcUUqnCaOe4Q/view?usp=sharing",
+    "https://drive.google.com/file/d/1ipw5MnNlK4AHy-9FukofXvdDTZFLI8BU/view?usp=sharing",
 };
 
 const socialMediaLinks = {
