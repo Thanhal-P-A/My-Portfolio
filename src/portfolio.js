@@ -16,11 +16,11 @@ const greeting = {
   subTitle:
     "Senior Software Engineer, React Native Enthusiast, Hybrid Mobile App Developer (iOS & Android).",
   resumeLink:
-    "https://drive.google.com/file/d/1ipw5MnNlK4AHy-9FukofXvdDTZFLI8BU/view?usp=sharing",
+    "https://drive.google.com/file/d/13wJBoHlHxnOeL4GtYcS4Y8B49UY1K2wY/view?usp=drive_link",
 };
 
 const socialMediaLinks = {
-  stackoverflow: "https://stackoverflow.com/users/10657559",
+  stackoverflow: "https://stackoverflow.com/users/story/thanhal?embed=profile",
   github: "https://github.com/thanhal-p-a",
   linkedin: "https://www.linkedin.com/in/thanhal",
   gmail: "thanhalpa@gmail.com",
@@ -43,10 +43,11 @@ const skills = {
       skills: [
         "Development of highly interactive UI for Mobile Applications",
         "Development & Deployment of both iOS and Android builds.",
-        "Integration of third party services such as Instana Agent, Firebase, AES Encryption, SQLite, Rich Text Editor, TTS, Text Recognition, One Signal, Google Map APIs, Social Media Feeds etc..",
+        "Integration of third party services such as Oura, Fitbit, Apple Health, Instana Agent, Firebase, AES Encryption, SQLite, Rich Text Editor, TTS, Text Recognition, One Signal, Google Map APIs, Social Media Feeds etc..",
         "Bridging native modules",
         "Propose & Implement technical solutions for complex problems",
         "Plan source code structure & reviewing source codes",
+        "Mentor junior resources"
       ],
       softwareSkills: [
         {
@@ -258,7 +259,7 @@ const experience = {
   title: "Experience",
   subtitle: "Work and Internship",
   description:
-    "I've 6 years of UI / Front End experience in Cross-Platform Mobile App Development using React Native.",
+    "I've 8+ years of UI / Front End experience in Cross-Platform Mobile App Development using React Native.",
   header_image_path: "experience.svg",
   sections: [
     {
@@ -269,9 +270,11 @@ const experience = {
           company: "StimScience",
           company_url: "https://www.stimscience.com/",
           logo_path: "StimScienceLogo.png",
-          duration: "Jan 2024 - present",
+          duration: "Jan 2024 - Oct 2026",
           location: "California, USA (Remote)",
-          description: `Role: Build, develop, deploy and test hybrid mobile applications and services by 3rd party library integration for their enterprise platform.`,
+          description: `Role: Build, develop, deploy and test hybrid mobile applications and services by 3rd party library integration for their enterprise platform.
+          Integrated Oura, Fitbit and Apple Health to bring users’ health data into the app.
+          Built a complex sleep-report chart and fixed native-level issues in a transparent-video library.`,
           color: "#4285F4",
         },
         {
@@ -281,7 +284,9 @@ const experience = {
           logo_path: "EmkanLogo.png",
           duration: "Oct 2022 - Oct 2023",
           location: "Riyah, Saudi Arabia",
-          description: `Role: Build, develop, deploy and test major financial services, frameworks, toolsets, and features for internal financial and payments processing systems.`,
+          description: `Role: Build, develop, deploy and test major financial services, frameworks, toolsets, and features for internal financial and payments processing systems.
+          Integrated biometrics, Firebase and CleverTap.
+          Reached 80% test coverage with Detox end to end testing.`,
           color: "#0071C5",
         },
         {
@@ -291,10 +296,10 @@ const experience = {
           logo_path: "ZeroneLogo.png",
           duration: "Aug 2020 - Sep 2022",
           location: "Kochi, kerala, India",
-          description: `Role: Propose & Implement technical solutions for complex problems;
-          Plan source code structure & reviewing source codes;
-          Internal evaluation of associates;
-          3rd party library integration;
+          description: `Role: Propose & Implement technical solutions for complex problems.
+          Plan source code structure & reviewing source codes.
+          Internal evaluation of associates.
+          3rd party library integration.
           Mentoring junior resources.`,
           color: "#0071C5",
         },
